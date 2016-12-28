@@ -1,0 +1,40 @@
+{
+  "name": "wjvcheck",
+  "version": "0.0.1",
+  "description": "Wordpress and Joomla version scanner",
+  "bin": {
+    "wjvcheck": "index.js"
+  },
+  "keywords": [
+    "wordpress",
+    "joomla",
+    "version",
+    "check"
+  ],
+  "main": "index.js",
+  "preferGlobal": "true",
+  "author": "Igor Tkachenko",
+  "license": "MIT",
+  "dependencies": {
+    "cli-spinners": "^1.0.0",
+    "request": "^2.78.0",
+    "inquirer": "^2.0.0",
+    "valid-url": "^1.0.9",
+    "log-update": "^1.0.2",
+    "cheerio": "^0.22.0",
+    "url-parse": "^1.1.7",
+    "cli-color": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foozzi/WJVCheck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/foozzi/WJVCheck/issues"
+  },
+  "homepage": "https://github.com/foozzi/WJVCheck#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
